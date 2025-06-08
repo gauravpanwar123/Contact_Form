@@ -1,0 +1,44 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    gap: 0;
+}
+
+
+
